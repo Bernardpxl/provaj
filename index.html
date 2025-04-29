@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout com Tabela</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table class="layout">
+    <tr class="header">
+      <td colspan="6">
+        <div class="header-content">
+          <h1>LOREM IPSUM</h1>
+          <p>Lorem Ipsum Lorem Ipsum</p>
+          <img src="logo.png" alt="Logo">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="3" class="box"></td>
+      <td colspan="2" rowspan="2" class="box"></td>
+      <td colspan="2" rowspan="2">
+      </td>
+    </tr>
+    <tr>
+      <td class="box"></td>
+    </tr>
+
+    <tr>
+      <td class="box"></td>
+      <td colspan="2" class="box"></td>
+      <td colspan="2" class="text-box">
+        <p>Lorem Ipsum Lorem Ipsum</p><p>Lorem Ipsum Lorem Ipsum</p>
+        <p>Lorem Ipsum Lorem Ipsum</p><p>Lorem Ipsum Lorem Ipsum</p>
+        <p>Lorem Ipsum Lorem Ipsum</p><p>Lorem Ipsum Lorem Ipsum</p>
+      </td>
+    </tr>
+    <tr class="footer">
+      <td colspan="4"></td>
+      <td colspan="2" class="social">
+        <div class="icon twitter"></div>
+        <div class="icon youtube"></div>
+        <div class="icon instagram"></div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
